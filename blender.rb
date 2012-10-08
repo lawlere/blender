@@ -6,13 +6,14 @@ end
 
 def choose_1
 	"I pushed speed 1"
+end
 
 def radius_of_blade (radius_of_blade = 3)
 	radius_of_blade * (2*3.14)
 end
 
-def spin (time = 2)
-	radius_of_blade/2
+def spin (radius_of_blade, time = 2)
+	radius_of_blade/time
 end
 
 
